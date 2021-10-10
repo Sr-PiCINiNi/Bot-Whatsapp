@@ -13,27 +13,4 @@ module.exports = {
 	updatesLog: true, // Logs info updates automatically in terminal
 	autoClose: 0, // Automatically closes the venom-bot only when scanning the QR code (default 60 seconds, if you want to turn it off, assign 0 or false)
 	createPathFileToken: false, //creates a folder when inserting an object in the client's browser, to work it is necessary to pass the parameters in the function create browserSessionToken
-	browserArgs: [
-		'--disable-web-security',
-		'--no-sandbox',
-		'--disable-web-security',
-		'--aggressive-cache-discard',
-		'--disable-cache',
-		'--disable-application-cache',
-		'--disable-offline-load-stale-cache',
-		'--disk-cache-size=0',
-		'--disable-background-networking',
-		'--disable-default-apps',
-		'--disable-extensions',
-		'--disable-sync',
-		'--disable-translate',
-		'--hide-scrollbars',
-		'--metrics-recording-only',
-		'--mute-audio',
-		'--no-first-run',
-		'--safebrowsing-disable-auto-update',
-		'--ignore-certificate-errors',
-		'--ignore-ssl-errors',
-		'--ignore-certificate-errors-spki-list',
-	],
 }
