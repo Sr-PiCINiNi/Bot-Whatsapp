@@ -1,0 +1,19 @@
+{
+  "name": "Bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "fetch": "^1.1.0",
+    "puppeteer": "^9.1.1",
+    "venom-bot": "https://github.com/orkestral/venom/releases/download/nightly/venom-bot-nightly.tgz"
+  }
+}
