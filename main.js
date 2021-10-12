@@ -36,6 +36,8 @@ function start(client) {
                 console.log(message.sender.id)
                 console.log(adms_info)
 
+                
+
                 if (adms_info.includes(message.sender.id)){
 
                     console.log(membros.pushname)
