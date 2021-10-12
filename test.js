@@ -18,5 +18,5 @@ function start(client) {
 
       }
 
-    })
+    }).listen(process.env.PORT || 5000)
 }
