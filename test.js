@@ -2,6 +2,8 @@ const venom = require('venom-bot');
 const venomOptions = require('./venom-options.js')
 const cotacao = require('./cotacao');
 
+port = process.env.PORT || 80
+
 venom
   .create(venomOptions)
   .then((client) => start(client));
